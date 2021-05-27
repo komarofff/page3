@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+*:hover {
+  outline: none;
+}
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  background: var(--body-background-color);
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: var(--container-width);
+  max-width: 100%;
+  box-shadow: 0 0 10px var(--shadow-color);
+  margin: 0 auto;
+  font: var(--font-formular);
+  font-size: var(--body-font-size);
+}
+.box {
+  width: 1160px;
+  max-width: 100%;
+}
+.center-vertical {
+  display: flex;
+  align-items: center;
+}
+.center-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stripe-blue {
+  background: var(--color-stripe-blue);
+  height: 40px;
+}
+.stripe-green {
+  position: relative;
+  background: var(--color-stripe-green);
+  height: 50px;
+  opacity: 0.5;
+}
+.stripe-green2 {
+  position: relative;
+  background: var(--color-stripe-green);
+  height: 50px;
+  opacity: 0.5;
+}
+.stripe-gray {
+  background: var(--color-stripe-gray);
+  height: 50px;
+  opacity: 0.5;
+}
+.stripes {
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+  max-width: 98vw;
+}
+.stripes2 {
+  position: absolute;
+  z-index: 0;
+  margin-top: 50%;
+  overflow: hidden;
+  max-width: 100%;
+  min-width: 100%;
+}
+.article-title {
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50px;
+  left: 15%;
+  font-family: Formular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: var(--article-title-color);
+  padding-left: 25px;
+  border-left: 5px solid var(--article-title-color);
+  text-align: left;
+  transform: translateX(-15%);
+  -webkit-transform: translateX(-15%);
+  -moz-transform: translateX(-15%);
+  -ms-transform: translateX(-15%);
+  -o-transform: translateX(-15%);
+}
+.article-title2 {
+  text-transform: uppercase;
+  padding: 70px 0 20px 0;
+  font-family: Formular;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: var(--article-title-color);
+  text-align: center;
+}
+.margin-top {
+  padding-top: 0;
+  margin-top: 30px;
+}
+.slick-slide {
+  padding: 20px 50px 0px 50px;
+  background: var(--color-white);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 1px solid rgb(247, 242, 242);
+}
+.slick-prev {
+  position: absolute;
+  top: -80px;
+  background: none;
+  left: 20%;
+  z-index: 1;
+}
+.slick-next {
+  position: absolute;
+  background: none;
+  z-index: 1;
+  top: -80px;
+  right: 20%;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 30px;
+  line-height: 1;
+
+  opacity: 0.75;
+  color: var(--article-title-color);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.above {
+  z-index: 4;
+}
+.tabs1 {
+  background: none;
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(100vw);
+    -webkit-transform: translateX(100vw);
+    -moz-transform: translateX(100vw);
+    -ms-transform: translateX(100vw);
+    -o-transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+@keyframes slide-right2 {
+  0% {display: none;
+    transform: translateX(100vw);
+    -webkit-transform: translateX(100vw);
+    -moz-transform: translateX(100vw);
+    -ms-transform: translateX(100vw);
+    -o-transform: translateX(100vw);
+  }
+  100% {
+    display: block;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+  99% {
+    transform: translateX(100vw);
+    -webkit-transform: translateX(100vw);
+    -moz-transform: translateX(100vw);
+    -ms-transform: translateX(100vw);
+    -o-transform: translateX(100vw);
+  }
+  100%{
+    display: none;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+   
+  }
+}
+
