@@ -138,22 +138,23 @@ a {
 }
 .slick-prev {
   position: absolute;
-  top: -80px;
-  background: none;
-  left: 20%;
-  z-index: 1;
+    /* top: -80px; */
+    margin-top: -40px;
+    background: none;
+    left: .1%;
+    z-index: 1;
 }
 .slick-next {
   position: absolute;
   background: none;
   z-index: 1;
-  top: -80px;
-  right: 20%;
+  margin-top: -40px;
+  right: 2.9%;
 }
 .slick-prev:before,
 .slick-next:before {
   font-family: "slick";
-  font-size: 30px;
+  font-size: 70px;
   line-height: 1;
 
   opacity: 0.75;
