@@ -238,6 +238,7 @@ a {
 }
 .projects-page .article-title{
   grid-column: 2/12;left: 3%;
+  padding: 10px;
 }
 .grid_2_column {
   grid-column: 2/12;
@@ -293,6 +294,7 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
 }
 .technology img{
  max-width: 50px;

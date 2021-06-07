@@ -228,6 +228,9 @@
   .grid_2_column{
     grid-template-columns: 1fr;
   }
+  .projects-page .article-title{
+    left:5%;
+  }
 }
 @media (max-width: 560px) {
   /* .slick-slide{
