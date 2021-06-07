@@ -124,13 +124,13 @@
 }
 .project-description:hover > img{
   transition: 1s linear;
-  filter: brightness(40%);
+  /* filter: brightness(40%); */
   transform: scale(1.1,1.1);
   -webkit-transform: scale(1.1,1.1);
   -moz-transform: scale(1.1,1.1);
   -ms-transform: scale(1.1,1.1);
   -o-transform: scale(1.1,1.1);
-  -webkit-filter: brightness(40%);
+  /* -webkit-filter: brightness(40%); */
   -webkit-transition: 1s linear;
   -moz-transition: 1s linear;
   -ms-transition: 1s linear;

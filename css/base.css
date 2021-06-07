@@ -127,7 +127,7 @@ a {
   margin-top: 100px;
 }
 .slick-slide {
-  padding: 20px 50px 0px 50px;
+  padding: 5px 15px;
   background: var(--color-white);
   border-radius: 20px;
   -webkit-border-radius: 20px;
