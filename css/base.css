@@ -288,3 +288,13 @@ a {
   border: 10px solid var(--services-tabs-active-links);
   z-index: 0;
 }
+.technology{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.technology img{
+ max-width: 50px;
+ margin-right: 40px;
+}
