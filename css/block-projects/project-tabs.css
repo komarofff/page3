@@ -86,6 +86,7 @@
    margin: 10px 0;
    animation: fade-in .5s ease-in-out  ;
   -webkit-animation: fade-in .5s ease-in-out  ;
+  overflow: hidden;
 }
 .project-images {
   width: 350px;
@@ -112,25 +113,17 @@
   content: url(../../images/projects/treugolnik.png);
 }
 .project-description:hover {
-  box-shadow: 0 0 10px var(--shadow-color);
-  /* transform: scale(1.01, 1.01);
-  -webkit-transform: scale(1.01, 1.01);
-  -moz-transform: scale(1.01, 1.01);
-  -ms-transform: scale(1.01, 1.01);
-  -o-transform: scale(1.01, 1.01); */
-  background: rgba(0, 0, 0, 0.815);
   overflow: hidden;
   z-index: 3;
 }
 .project-description:hover > img{
   transition: 1s linear;
-  /* filter: brightness(40%); */
+ 
   transform: scale(1.1,1.1);
   -webkit-transform: scale(1.1,1.1);
   -moz-transform: scale(1.1,1.1);
   -ms-transform: scale(1.1,1.1);
   -o-transform: scale(1.1,1.1);
-  /* -webkit-filter: brightness(40%); */
   -webkit-transition: 1s linear;
   -moz-transition: 1s linear;
   -ms-transition: 1s linear;
