@@ -225,6 +225,9 @@
   .center-sertificate {
     padding: 10px;
   }
+  .grid_2_column{
+    grid-template-columns: 1fr;
+  }
 }
 @media (max-width: 560px) {
   /* .slick-slide{
