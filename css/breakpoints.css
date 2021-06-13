@@ -17,6 +17,10 @@
   }
 }
 @media (max-width: 1000px) {
+  .contact__grid_2column{
+    width: 100vw;
+    grid-template-columns: 1fr;
+  }
   .banner-buttons-block {
     margin: 100px 12px 0 12px;
   }
@@ -173,10 +177,10 @@
     display: block;
   }
   .slick-prev {
-    left: 3%;
+    display: none;
   }
   .slick-next {
-    right: 3%;
+    display: none;
   }
   .how-we-work-tabs {
     grid-template-columns: 1fr 1fr;

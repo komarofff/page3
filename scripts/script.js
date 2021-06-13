@@ -1,5 +1,5 @@
 document.addEventListener("scroll", (e) => {
-  if (pageYOffset > 1) {
+  if (pageYOffset > 50) {
     document.querySelector(".topmenu__menu").style.cssText = "padding: 5px 0; ";
     document.querySelector(".logo-w").style.cssText =
       "max-height: 60px; padding; 5px 0;";
